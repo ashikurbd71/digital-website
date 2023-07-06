@@ -45,7 +45,7 @@ justify-content: space-around;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
-    background-image: url(img/background.png),linear-gradient(45deg,rgb(0, 0, 0),rgb(0, 0, 0));
+    background-image: url(img/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
  }
 
  .title{
@@ -93,6 +93,8 @@ justify-content: space-around;
     font-size: 40px;
     font-weight: bold;
     padding-top: 15px;
+   
+
  }
 
  .about-text h1{
@@ -113,3 +115,54 @@ justify-content: space-around;
     .about-btn:hover{ background-color: gold;
         color: black;
         cursor: pointer;}
+
+
+.box{
+    margin-top: 20px;
+    width:230px ;
+    height: 300px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.icon{
+    width: 70px;
+}
+
+.service-btn{
+    background-color: gray;
+    padding: 10px 20px ;
+    margin-top: 10px;
+    border: none;
+ 
+}
+
+.service-title{
+    margin: 10px;
+ 
+}
+
+.service-discription{
+padding: 10px;
+}
+
+.service-container{
+    background-image: url(img/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.title-2{
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
