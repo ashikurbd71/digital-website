@@ -166,3 +166,61 @@ padding: 10px;
     padding-top: 50px;
     text-align: center;
 }
+
+.logo-fo{
+
+    width: 120px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    color:white; 
+    background-color:black;
+}
+
+
+.footer-logo p{
+    margin-top: 30px;
+   
+}
+
+.icons{
+ display: inline-block;
+
+}
+
+h3{color: white;}
+
+
+.footer-title{
+
+    margin-bottom: 30px;
+   
+}
+
+.useful-links p{
+  
+    margin-top: 10px ;
+     
+}
+.contacts p{
+  
+    margin-top: 10px ;
+     
+}
+
+.supports p{
+
+    margin-top: 10px ; 
+}
+
+
+.foo{
+   text-align: center;
+    background-color: black;
+    color: white;
+}
+
