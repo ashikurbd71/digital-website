@@ -34,3 +34,43 @@ justify-content: space-around;
     color: brown;
     cursor: pointer;
  }
+
+ .banner-pic{
+    width: 300px;
+ }
+
+ .banner-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url(img/background.png),linear-gradient(45deg,rgb(0, 0, 0),rgb(0, 0, 0));
+ }
+
+ .title{
+    font-size: 50px;
+    font-weight: bold;
+ }
+
+ .discription{
+
+    font-size: 18px ;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+
+ .banner-btn{
+    padding: 10px 20px ;
+    background-color: red;
+    color: white;
+    border: none;
+    transition: all 1s;
+  
+ }
+
+ .banner-btn:hover{
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+ }
