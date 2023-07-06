@@ -74,3 +74,42 @@ justify-content: space-around;
     color: black;
     cursor: pointer;
  }
+
+ .about-conatiner{
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    align-items: center;
+    padding: 10px;
+
+ }
+
+ .about-pic{
+    width: 300px;
+ }
+
+ .title-1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+ }
+
+ .about-text h1{
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .about-text p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+
+ .about-btn{ padding: 10px 20px ;
+    background-color: red;
+    color: white;
+    border: none;
+    transition: all 1s;}
+
+    .about-btn:hover{ background-color: gold;
+        color: black;
+        cursor: pointer;}
